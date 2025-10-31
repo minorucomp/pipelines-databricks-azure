@@ -4,12 +4,12 @@
 	"parameters": {
 		"factoryName": {
 			"type": "string",
-			"metadata": "Nome do Data Factory",
+			"metadata": "Data Factory name",
 			"defaultValue": "databricks-curso-alura"
 		},
 		"Dabricks_ADF_link_accessToken": {
 			"type": "secureString",
-			"metadata": "Cadeia de caracteres segura para 'accessToken' de 'Dabricks_ADF_link'"
+			"metadata": "Secure string for 'accessToken' of 'Dabricks_ADF_link'"
 		},
 		"Dabricks_ADF_link_properties_typeProperties_existingClusterId": {
 			"type": "string",
@@ -122,7 +122,7 @@
 					"recurrence": {
 						"frequency": "Hour",
 						"interval": 1,
-						"startTime": "2025-10-30T22:57:00",
+						"startTime": "2025-10-31T02:01:00",
 						"timeZone": "E. South America Standard Time"
 					}
 				}
